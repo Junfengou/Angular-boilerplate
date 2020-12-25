@@ -4,13 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
+  declarations: [ // components live in declarations
     AppComponent
   ],
-  imports: [
+  imports: [ //All modules must live here
     BrowserModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [], //services 
+  bootstrap: [AppComponent] //css
 })
 export class AppModule { }
